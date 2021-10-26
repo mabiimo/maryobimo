@@ -1,0 +1,193 @@
+.navbar {
+  background-color: #f2ebeb;
+}
+.subnav {
+  transition: all 0.3s ease-in-out;
+}
+.subnav:hover {
+  transform: scale(1.3);
+  color: #393939;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #393939;
+  color: #f2ebeb;
+}
+
+.btn {
+  background-color: none;
+  color: #f2ebeb;
+  margin: 0px 10px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.8s;
+}
+.btn:hover {
+  background-color: #f2ebeb;
+  color: #393939;
+}
+
+#jumbotron {
+  background-color: #f2ebeb;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+#project {
+  background-color: #f2ebeb;
+}
+
+#cardfooter {
+  background-color: #f2ebeb;
+}
+
+/* Experience Style */
+.cc-experience .cc-experience-header {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-right: 0;
+  text-align: center;
+  color: #393939;
+  text-transform: uppercase;
+  background-color: #f2ebeb;
+}
+
+.work {
+  color: #393939;
+  font-weight: bolder;
+}
+/* contact */
+
+#contact {
+  background-color: #f2ebeb;
+}
+
+#contact .contact-list {
+  display: inline-block;
+
+  margin: 0;
+  padding: 3rem 0 0 0;
+  background-color: #f2ebeb;
+  list-style: none;
+
+  text-align: left;
+}
+
+#contact .contact-list .contact-list-item {
+  margin-bottom: 4rem;
+}
+
+#contact .contact-list .contact-list-item .contact-type {
+  display: inline-block;
+
+  margin-right: 1.6rem;
+  padding: 0 3.5rem;
+
+  border-radius: 3.5rem;
+  background: #393939;
+}
+
+#contact .contact-list .contact-list-item .contact-type i {
+  font-size: 2rem;
+  line-height: 7rem;
+
+  margin-right: 0.3em;
+}
+
+#contact .contact-list .contact-list-item .contact-type h6 {
+  font-weight: 500;
+
+  margin-right: 0.3em !important;
+
+  color: #fff;
+}
+
+#contact .contact-list .contact-list-item h6 {
+  line-height: 6rem;
+
+  display: inline-block;
+
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  #contact .contact-list .contact-list-item {
+    text-align: center;
+  }
+
+  #contact .contact-list .contact-list-item .contact-type {
+    display: block;
+
+    margin-bottom: 2rem;
+
+    text-align: center;
+  }
+}
+/* tutup contact */
+
+/* Footer 2 */
+.footer-basic {
+  padding: 40px 0;
+  background-color: #393939;
+  color: #f2ebeb;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/* Penutup Footer 2 */
+
+/* coba button 1  */
+
+/* tutup button 1  */
