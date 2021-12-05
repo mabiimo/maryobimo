@@ -239,7 +239,7 @@
 /* Penutup Footer 2 */
 
 /* foto di about me dan education */
-.figure::-webkit-scrollbar {
+.figure {
   transform-origin: center;
   animation: scale 2000ms ease-in-out forwards;
   position: relative;
