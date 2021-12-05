@@ -351,23 +351,11 @@
 /* penutup video */
 
 /* loader */
-.loader-wrapper {
+#preloader {
+  background: #fff url("img/Ball-1s-200px.gif") no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #242f3f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  border: 4px solid #fff;
-  animation: loader 2s infinite ease;
+  position: fixed;
+  z-index: 100;
 }
