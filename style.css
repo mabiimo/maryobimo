@@ -238,37 +238,6 @@
 }
 /* Penutup Footer 2 */
 
-/* foto di about me dan education */
-.figure {
-  transform-origin: center;
-  animation: scale 2000ms ease-in-out forwards;
-  position: relative;
-  animation-name: mymove;
-  animation-duration: 2s;
-}
-
-@keyframes mymove {
-  from {
-    left: 200px;
-  }
-  to {
-    left: 0px;
-    animation-iteration-count: 2;
-  }
-}
-@keyframes mymove {
-  from {
-    transform: scale(0);
-    left: 200px;
-  }
-  to {
-    transform: scale(1);
-    left: 0px;
-    animation-iteration-count: 2;
-  }
-}
-/* penutup foto di about me dan education */
-
 /* jumbotron muka gua */
 .muka1 {
   position: relative;
@@ -349,3 +318,9 @@
   margin: 10px;
 }
 /* penutup video */
+
+/* pejct2 */
+#project2 {
+  background-color: #f2ebeb;
+  margin: 100px;
+}
