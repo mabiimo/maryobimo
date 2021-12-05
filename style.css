@@ -285,3 +285,68 @@
   }
 }
 /* penutup jumbotron muka gua  */
+
+/* about */
+#about {
+  background-color: #f2ebeb;
+  margin: 50px;
+}
+
+/*  */
+
+/* gambar bergerak */
+.main {
+  display: flex;
+  overflow: hidden;
+  height: 50vw;
+  background: #333;
+}
+
+.main img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 2px solid white;
+  box-sizing: border-box;
+  transition: opacity 0.2s;
+}
+
+.main:hover img {
+  opacity: 0.05;
+}
+
+.main img:hover {
+  opacity: 3;
+}
+
+.main .single-column {
+  animation: var(--animation, none) 16s infinite linear;
+}
+
+.main .single-column:hover {
+  animation-play-state: paused;
+  transform: scale(2);
+}
+
+.main .single-column:nth-of-type(odd) {
+  align-self: flex-end;
+  --direction: 50%;
+}
+
+@keyframes slide {
+  to {
+    -webkit-transform: translateY(var(--direction, -50%));
+    transform: translateY(var(--direction, -50%));
+  }
+}
+/* tutup gambar bergerak  */
+
+/* video */
+.video1 {
+  background-color: white;
+}
+
+.video {
+  margin: 10px;
+}
+
+/* penutup video */
