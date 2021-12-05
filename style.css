@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar { 
   background-color: #f2ebeb;
 }
 .subnav {
@@ -10,6 +10,56 @@
   font-weight: bold;
 }
 
+*/
+
+/* Percobaan Navbar */
+.navbar {
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+}
+.subnav {
+  transition: all 0.1s ease-in-out;
+}
+.subnav:hover {
+  transform: scale(1.4);
+  color: #393939;
+  font-weight: bold;
+}
+
+/* writing animation */
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.0005em; /* Adjust as needed */
+  animation-name: typing;
+  animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f2ebeb;
+  }
+}
+/* penutup writing animation  */
+
+/* Penutup Percobaan Navbar */
 .btn {
   background-color: #393939;
   color: #f2ebeb;
@@ -188,8 +238,8 @@
 }
 /* Penutup Footer 2 */
 
-/* coba button 1  */
-.figure {
+/* foto di about me dan education */
+.figure::-webkit-scrollbar {
   transform-origin: center;
   animation: scale 2000ms ease-in-out forwards;
   position: relative;
@@ -217,7 +267,9 @@
     animation-iteration-count: 2;
   }
 }
+/* penutup foto di about me dan education */
 
+/* jumbotron muka gua */
 .muka1 {
   position: relative;
   animation-name: muka1;
@@ -232,4 +284,4 @@
     top: 0px;
   }
 }
-/* tutup button 1  */
+/* penutup jumbotron muka gua  */
