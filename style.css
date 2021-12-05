@@ -2,10 +2,10 @@
   background-color: #f2ebeb;
 }
 .subnav {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .subnav:hover {
-  transform: scale(1.3);
+  transform: scale(1.4);
   color: #393939;
   font-weight: bold;
 }
@@ -189,5 +189,47 @@
 /* Penutup Footer 2 */
 
 /* coba button 1  */
+.figure {
+  transform-origin: center;
+  animation: scale 2000ms ease-in-out forwards;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2s;
+}
 
+@keyframes mymove {
+  from {
+    left: 200px;
+  }
+  to {
+    left: 0px;
+    animation-iteration-count: 2;
+  }
+}
+@keyframes mymove {
+  from {
+    transform: scale(0);
+    left: 200px;
+  }
+  to {
+    transform: scale(1);
+    left: 0px;
+    animation-iteration-count: 2;
+  }
+}
+
+.muka1 {
+  position: relative;
+  animation-name: muka1;
+  animation-duration: 1.5s;
+}
+
+@keyframes muka1 {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0px;
+  }
+}
 /* tutup button 1  */
