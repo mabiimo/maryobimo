@@ -3,4 +3,6 @@ deployment:
     - export DEPLOYPATH=/home/maryobim/public_html
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp function.js $DEPLOYPATH
+    - /bin/cp vanilla-tilt.min.js $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
