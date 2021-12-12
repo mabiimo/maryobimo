@@ -259,6 +259,7 @@
 /* jumbotron muka gua */
 .muka1 {
   position: relative;
+  text-align: center;
   animation-name: muka1;
   animation-duration: 1.5s;
 }
