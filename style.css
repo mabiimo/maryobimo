@@ -135,9 +135,19 @@
   border: 1px solid rgba(255, 255, 255, 0.25);
 }
 /* Tutup Percobaan Txt kanan*/
-
+#project1 {
+  background-color: #0d0d0d;
+  margin: 0px;
+  background: url(img/Frame\ 9.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 #project {
-  background-color: #f2ebeb;
+  background-color: #0d0d0d;
+  margin: 0px;
+  background: url(img/Frame\ 8.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #cardfooter {
@@ -170,7 +180,11 @@
 /* contact */
 
 #contact {
-  background-color: #f2ebeb;
+  background-color: #0d0d0d;
+  margin: 0px;
+  background: url(img/Frame\ 10.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #contact .contact-list {
@@ -178,7 +192,7 @@
 
   margin: 0;
   padding: 3rem 0 0 0;
-  background-color: #f2ebeb;
+  background-color: none;
   list-style: none;
 
   text-align: left;
@@ -453,7 +467,7 @@
 .namecard {
   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
-  color: #393639;
+  color: #f2ebeb;
   margin-right: 1.6rem;
   padding: 1rem;
   border-radius: 3.5rem;
