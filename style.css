@@ -11,6 +11,13 @@
 }
 
 */
+
+/* Kelas Body */
+.body {
+  background-color: #0d0d0d;
+  background: url(img/Frame\ 2.png);
+}
+/* tutup body */
 /* Percobaan Navbar  */
 .navbar {
   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
@@ -21,7 +28,7 @@
 }
 .subnav:hover {
   transform: scale(1.4);
-  color: #393939;
+  color: #0000;
   font-weight: bold;
 }
 
@@ -71,6 +78,7 @@
   text-align: center;
   font-size: 16px;
   transition: 0.8s;
+  margin-bottom: 20px;
 }
 .btn:hover {
   background-color: #f2ebeb;
@@ -78,11 +86,55 @@
 }
 
 #jumbotron {
-  background-color: #f2ebeb;
-  font-weight: bold;
-  padding-top: 30px;
   position: relative;
+  padding-top: 40px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(img/Frame\ 1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+/* background Jumbotron  */
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+}
+.botleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+}
+/* Effect kaca pada about me  */
+.kaca {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* Effect kaca pada about me  */
+
+/* Buka Percobaan Txt kanan*/
+.textkanan {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* Tutup Percobaan Txt kanan*/
 
 #project {
   background-color: #f2ebeb;
@@ -93,6 +145,14 @@
 }
 
 /* Experience Style */
+
+#experience {
+  background-color: #0d0d0d;
+  margin: 0 px;
+  background: url(img/Frame\ 5.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .cc-experience .cc-experience-header {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -260,6 +320,7 @@
 .muka1 {
   position: relative;
   text-align: center;
+
   animation-name: muka1;
   animation-duration: 1.5s;
 }
@@ -276,8 +337,22 @@
 
 /* about */
 #about {
-  background-color: #f2ebeb;
-  margin: 50px;
+  background-color: #0d0d0d;
+  margin: 20px;
+  margin-bottom: 300px;
+  height: 850px;
+  background: url(img/Frame\ 3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.education {
+  background-color: #0d0d0d;
+  margin: 10px;
+  height: 700px;
+  background: url(img/Frame\ 7.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /*  */
@@ -366,6 +441,15 @@
 }
 
 /* namecard */
+
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
 .namecard {
   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
@@ -376,3 +460,83 @@
   text-align: center;
   position: relative;
 }
+
+/* Divider */
+.wrapper {
+  padding-bottom: 90px;
+}
+
+.divider {
+  position: relative;
+  margin-top: 90px;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
+}
+
+.div-arrow-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg);
+  background-color: none;
+  border-bottom: 1px solid rgb(48, 49, 51);
+  border-right: 1px solid rgb(48, 49, 51);
+}
+
+.div-tab-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 14px;
+  background-color: none;
+  border-bottom: 1px solid rgb(48, 49, 51);
+  border-left: 1px solid rgb(48, 49, 51);
+  border-right: 1px solid rgb(48, 49, 51);
+  border-radius: 0 0 8px 8px;
+}
+
+.div-stopper:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -6px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 12px;
+  background-color: black;
+  border-left: 1px solid rgb(48, 49, 51);
+  border-right: 1px solid rgb(48, 49, 51);
+}
+
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: goldenrod;
+  border: 1px solid rgb(48, 49, 51);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px black, 0 0 0 4px black;
+}
+
+/* Penutup Divider */
